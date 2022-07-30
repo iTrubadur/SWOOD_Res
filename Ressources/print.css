@@ -1,0 +1,49 @@
+.menu{display: none;}	
+.sign{display: none;}	
+.print{
+	display: block;
+	font-family :Serif;
+	font-size :8pt;
+}
+body {
+	background-color :#fff;
+	font-family :Serif;
+	font-size :8pt;
+	margin :0;
+	border :none;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.title_page {
+	background-color:white;
+	font-weight:bold;
+	color:black;
+	border:solid;
+	border-width:thin;
+	border-color:#666666;
+}
+.copyright {
+	background-color:white;
+}
+.copyright_logo {
+	background-color:white;
+	
+}
+.img-prg {
+	width: 150px;
+}
+.img-stock {
+	width: 150px;
+}
+table#cadre_tableau tr td table tr{
+	height:10pt;
+	font-size :8pt;
+	border-width:thin;
+}
+table#cadre_tableau_debit tr td table tr{
+	height:10pt;
+	font-size :8pt;
+	border-width:thin;
+}

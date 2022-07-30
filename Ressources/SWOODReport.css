@@ -1,0 +1,170 @@
+@charset "utf-8";
+body {
+	background-color:#E1E1E1;
+	overflow-x: hidden;
+	margin:10;
+    padding:0;
+}
+
+a{text-decoration:none;}
+
+/*
+ * 
+ * TOUTES LES PAGES
+ * 
+*/
+.table_corp_page{ /*Page accueil*/ /*ReportViews*/
+	width:100%;
+	border-collapse:collapse;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.title_page {
+	color:#EDBC1A;
+	font-weight:bold;
+	background-color:#323232;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+}
+
+.cellule_menu { /*Detail des progs - Titre des tableaux*/
+	color:#EDBC1A;
+	font-weight:bold;
+	background-color:#323232;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+
+/*
+ * 
+ * PAGE ACCUEIL REPORT DETAIL
+ * 
+*/
+table#cadre_tableau_report{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+	
+table#cadre_tableau_report td{
+	border:solid;
+	border-width:thin;
+	border-color:#323232;
+}
+
+
+/*
+ * 
+ * PROGRAMMES & DEBITS
+ * 
+*/
+.etiquettes{ /*Lien Etiquettes*/
+	font-size:12px;
+	height:10px;
+	color:#FF2821;
+	text-align:right;
+}
+
+
+/*
+ * 
+ * TABLEAU DES PROGRAMMES
+ * 
+*/
+
+table#cadre_tableau{ /*Liste des progs & Detail des progs*/
+	page-break-inside: avoid;
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+table#cadre_tableau tr td table td{
+	border:solid;
+	border-width:thin;
+}
+
+.img-prg {
+	width: 250px;
+}
+
+
+/*
+ * 
+ * TABLEAU DES DEBITS
+ * 
+*/
+.corp_page_debits {
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+table#cadre_tableau_debit{
+	page-break-inside: avoid;
+	background-color:#FFFFFF;
+	border:solid;
+	border-width:thin;
+	border-collapse: Collapse;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+table#cadre_tableau_debit td{
+	page-break-inside: avoid;
+	border:solid;
+	border-width:thin;
+	border-color:#323232;
+}
+
+table#cadre_tableau_debit tr td table tr{
+	height:12px;
+	font-size:12px;
+	border-width:thin;
+}
+
+.img-stock {
+	width: 250px;
+}
+
+/*
+ * 
+ * TABLEAU DES QUINCAILLERIES
+ * 
+*/
+.corp_page_hardwares {
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+table#cadre_tableau_hardwares{
+	page-break-inside: avoid;
+}
+	
+table#cadre_tableau_hardwares td{
+	border:solid;
+	border-width:thin;
+	border-color:#323232;
+}
+
+tr#tableau_debit_title{
+	vertical-align: top;
+	text-align: center;
+	font-size:14px;
+}
+
+
+/*
+ * 
+ * TABLEAU DES COUTS
+ * 
+*/
+table#tableau_cost{
+	page-break-inside: avoid;
+	border:solid;
+	border-width:thin;
+	border-collapse: Collapse;
+}
